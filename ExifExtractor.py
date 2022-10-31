@@ -21,3 +21,5 @@ class ExifExtractor:
 
         for k, v in info_dict.items():
             print(k, ':', v)
+
+        return info_dict
