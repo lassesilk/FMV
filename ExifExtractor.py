@@ -19,7 +19,4 @@ class ExifExtractor:
             line = tag.strip().split(':')
             info_dict[line[0].strip()] = line[-1].strip()
 
-        for k, v in info_dict.items():
-            print(k, ':', v)
-
         return info_dict
